@@ -52,7 +52,7 @@ button {
 }
 .img {
   width: 300px;
-  animation: hehehe 4s ease-in-out infinite;
+  animation: hehehe 4s ease-in-out 1;
 }
 @keyframes hehehe {
   0%,
