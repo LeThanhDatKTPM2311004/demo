@@ -58,6 +58,7 @@ label {
   letter-spacing: 0.26px;
 }
 .item__list {
+  cursor: pointer;
   display: flex;
   flex-direction: column;
   gap: 19px;
@@ -95,6 +96,7 @@ label {
 }
 /*  */
 .khoiavt {
+  cursor: pointer;
   padding: 350px 28px 0px;
   display: flex;
   justify-content: space-between;
@@ -103,6 +105,7 @@ label {
   border-radius: 42px;
 }
 .khoiavt .item__svg {
+  cursor: pointer;
   rotate: 90deg;
   width: 24px;
   height: 24px;
@@ -199,10 +202,12 @@ label {
   justify-content: center;
 }
 .form-input {
+  cursor: pointer;
   border: none currentColor;
   padding-right: 36px;
 }
 .form__sapxep {
+  cursor: pointer;
   margin-left: 16px;
   color: #7e7e7e;
   font-size: 1.2rem;
@@ -231,19 +236,18 @@ label {
   border-bottom: 1px solid #000;
 }
 .btn {
+  cursor: pointer;
+  width: 60px;
   border-radius: 4px;
-  background: #008767;
-  color: #fff;
 }
 .khoiduoi {
-  padding: 0 600px 28px 40px;
+  padding: 0 700px 28px 40px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .but {
   background-color: rgba(22, 192, 152, 0.38);
-  box-shadow: 2px 4px 4px rgba(79, 42, 234, 0.17);
   border-radius: 8px;
   margin-left: 39px;
   width: 150px;
@@ -251,9 +255,42 @@ label {
   display: flex;
   justify-content: center;
   align-items: center;
+  border: currentColor;
+}
+.but:hover {
+  box-shadow: 2px 4px 4px rgba(79, 42, 234, 0.17);
 }
 .but a {
   color: #008767;
   font-size: 1.4rem;
   font-weight: 500;
+}
+.form__grid {
+  display: flex;
+  gap: 5px;
+  text-align: center;
+}
+.btn__update {
+  border: #3d3900;
+  background: #ffff9f;
+}
+.btn__update a {
+  color: #3d3900;
+}
+.btn__delete {
+  background-color: #ffc5c5;
+  border: #df0404;
+}
+.btn__delete a {
+  color: #df0404;
+}
+.btn__read {
+  background-color: #82cafa;
+  border: #1c0a8e;
+}
+.btn__read a {
+  color: #1c0a8e;
+}
+.btn:hover {
+  transform: scale(1.1);
 }
