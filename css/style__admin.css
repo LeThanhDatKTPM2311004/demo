@@ -127,8 +127,8 @@ label {
   padding-bottom: 47px;
 }
 .khoitieude {
-  width: 968px;
-  height: 151px;
+  /* width: 968px;
+  height: 151px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
