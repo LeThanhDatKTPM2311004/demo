@@ -72,6 +72,7 @@ label {
   padding-left: 25px;
   align-items: center;
   transition: 0.5s;
+  color: #9197b3;
 }
 .item__img {
   width: 38px;
@@ -81,7 +82,7 @@ label {
   color: #9197b3;
 }
 .item__desc {
-  color: #9197b3;
+  color: currentColor;
   font-size: 1.4rem;
   letter-spacing: -0.14px;
   padding-right: 1.33rem;
@@ -91,8 +92,9 @@ label {
 }
 .item__list-item:hover {
   border-radius: 8px;
-  background: #5932ea;
-  padding-left: 30px 28px 30px;
+  background: #df0404;
+  color: #fff;
+  /* padding-left: 30px 28px 30px; */
 }
 /*  */
 .khoiavt {
@@ -241,10 +243,16 @@ label {
   border-radius: 4px;
 }
 .khoiduoi {
-  padding: 0 700px 28px 40px;
+  padding: 20px 1175px 20px 0px;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: fixed;
+  bottom: 0;
+  background-color: #ffff;
+}
+.show {
+  display: none;
 }
 .but {
   background-color: rgba(22, 192, 152, 0.38);
@@ -255,6 +263,8 @@ label {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  left: 450px;
   border: currentColor;
 }
 .but:hover {
