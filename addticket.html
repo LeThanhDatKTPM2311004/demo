@@ -209,34 +209,39 @@
           </div>
         </div>
       </div>
-      <div class="khoiupdate khoitanghinh" id="khoiupdate">
+      <div class="khoiupdate khoitanghinh khoiupdate2" id="khoiupdate">
         <div class="khoiup">
           <p class="desc descup">Update</p>
         </div>
-        <div class="khoinhapup">
-          <form action="" class="userID_up form">
-            <label for="" class="label">UserID: </label>
-            <p class="desc"></p>
-          </form>
-          <form action="" class="userName_up form">
-            <label for="" class="label">Username: </label>
-            <input type="text" class="input" />
-          </form>
-          <form action="" class="Email_up form">
-            <label for="" class="label">Email: </label>
-            <input type="email" class="input" />
-          </form>
-          <form action="" class="Role_up form">
-            <label for="" class="label">Role: </label>
-            <div class="thechon">
-              <label class="label"
-                ><input type="radio" name="role" class="input" />ADMIN</label
-              >
-              <label class="label"
-                ><input type="radio" name="role" class="input" />USER</label
-              >
-            </div>
-          </form>
+        <div class="khoiphoto">
+            <form action="" class="formticket formphoto">
+                <input type="file" class="inputtic" id="file">
+                <img src="./img/new2.png" alt="" class="inputtic__plus" id="hinhfile">
+            </form>
+        </div>
+        <div class="khoiformcreate">
+            <form action="" class="formcreate">
+                    <div class="the thematch">
+                        <label for="" class="labeltic">Match: </label>
+                        <input type="text" class="inputticket">
+                    </div>
+                    <div class="the thedt">
+                        <label for="" class="labeltic">Date: </label>
+                        <input type="datetime-local" class="inputticket">
+                    </div>
+                    <div class="the thetype">
+                        <label for="" class="labeltic">TicketType: </label>
+                        <select name="vitri" id="TypeTicket" class="inputticket">
+                          <option value="1" class="Ticket">Normal</option>
+                          <option value="2" class="Ticket">Average</option>
+                          <option value="3" class="Ticket">Vip</option>
+                        </select>
+                    </div>
+                    <div class="the theprice">
+                        <label for="" class="labeltic">Price(VND): </label>
+                        <input type="text" class="inputticket">
+                    </div>
+            </form>
         </div>
         <div class="khoiselectup">
           <button class="btn btn__cancel" id="cancel">
@@ -292,5 +297,6 @@
       </div>
     </div>
     <script src="./thaotac.js"></script>
+    <script src="./thaotaccreate.js"></script>
   </body>
 </html>

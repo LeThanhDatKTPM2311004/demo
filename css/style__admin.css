@@ -558,3 +558,22 @@ label {
   border: 1px solid #fff;
   background-color: #9a9595a0;
 }
+.khoiupdate .khoiphoto {
+  width: 100%;
+}
+.khoiupdate2 .khoiup {
+  height: 50px;
+  padding: 0;
+}
+.khoiupdate2 .khoiphoto {
+  box-shadow: none;
+  height: 50px;
+}
+.khoiupdate2 .inputtic__plus {
+  width: 30px;
+  height: 30px;
+  padding: 0;
+}
+.khoiupdate2 .descup {
+  font-size: 40px;
+}
