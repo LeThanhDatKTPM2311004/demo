@@ -455,6 +455,7 @@ label {
 .svgtic {
   width: 43px;
   height: 43px;
+  cursor: pointer;
 }
 .soc {
   width: 40%;
@@ -483,9 +484,14 @@ label {
   display: none;
 }
 .formticket {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .inputtic__plus {
   padding: 16px 442px;
+  cursor: pointer;
 }
 .khoiformcreate {
   width: 100%;
@@ -576,4 +582,15 @@ label {
 }
 .khoiupdate2 .descup {
   font-size: 40px;
+}
+.inputticket {
+  cursor: pointer;
+}
+.btntic {
+  cursor: pointer;
+}
+.khoiphoto .desc {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
 }
