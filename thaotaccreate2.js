@@ -18,8 +18,8 @@ fileclick.addEventListener("change", function () {
     const file = fileclick.files[0];
     descphoto.textContent = file.name;
     imgclick.src = URL.createObjectURL(file);
-    imgclick.style.height = "20px";
-    imgclick.style.width = "18px";
+    imgclick.style.height = "90px";
+    imgclick.style.width = "80px";
     imgclick.style.padding = "0px";
   } else {
     descphoto.textContent = "Data photo none";
