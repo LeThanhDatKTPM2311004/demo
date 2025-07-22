@@ -339,7 +339,7 @@ button {
 .khoichon .btn:hover {
   background-color: #000000;
   color: #ffffff;
-  scale: 1.1;
+  scale: 1.3;
   box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.7);
 }
 .khoithoigian {
