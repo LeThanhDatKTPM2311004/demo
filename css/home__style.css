@@ -409,6 +409,7 @@ button {
 }
 .img {
   border-radius: 30px;
+  object-fit: cover;
 }
 .img1 {
   flex: 0.5;
