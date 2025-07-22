@@ -444,3 +444,85 @@ button {
   border-radius: 50%;
   background-color: #9197b3;
 }
+/*  */
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 90px;
+  padding: 100px;
+  background-color: #000000;
+}
+.khoiliv {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 20%;
+}
+.khoiliv .desc {
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.khoiliv .tieude {
+  color: #f43a3d;
+  font-size: 5rem;
+  font-weight: 700;
+}
+.phai {
+  display: flex;
+  gap: 100px;
+  width: 80%;
+  padding: 100px 200px;
+}
+.quicklink {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 20%;
+}
+.quicklink .tieude {
+  color: #fff;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+.quicklink .desc {
+  color: #fff;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+.sponsor {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 40%;
+}
+.sponsor .tieude {
+  color: #fff;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+.sponsor .desc {
+  color: #fff;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+.contractinfo {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 40%;
+}
+.contractinfo .tieude {
+  color: #fff;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+.contractinfo .desc {
+  color: #fff;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+.phai .desc:hover {
+  color: #f9b625;
+}
