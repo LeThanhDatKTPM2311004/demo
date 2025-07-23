@@ -200,41 +200,6 @@ button {
   background-color: #fff;
   border-radius: 50%;
 }
-.img__sp {
-  animation: slideAnimation 12s infinite;
-}
-.img__sp:nth-child(1) {
-  animation-delay: 0s;
-}
-.img__sp:nth-child(2) {
-  opacity: 1;
-  animation-delay: 4s;
-}
-.img__sp:nth-child(3) {
-  animation-delay: 8s;
-}
-@keyframes slideAnimation {
-  0% {
-    opacity: 0;
-    transform: translateX(100%);
-  }
-  5% {
-    opacity: 1;
-    transform: translateX(0);
-  }
-  30% {
-    opacity: 1;
-    transform: translateX(0);
-  }
-  35% {
-    opacity: 0;
-    transform: translateX(-100%);
-  }
-  100% {
-    opacity: 0;
-    transform: translateX(-100%);
-  }
-}
 /*  */
 .infomatch {
   display: flex;
