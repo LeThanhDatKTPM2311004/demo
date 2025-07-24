@@ -43,6 +43,12 @@ button {
 ::-webkit-scrollbar-thumb:hover {
   background: #cc0000;
 }
+p {
+  color: #000;
+  font-family: "Istok Web";
+  font-size: 1.8rem;
+  font-weight: 700;
+}
 /*  */
 .container {
   display: flex;
@@ -127,7 +133,6 @@ button {
 .khoiuser {
   display: flex;
   flex-direction: column;
-  gap: 4px;
   margin-left: 35px;
   margin-right: 20px;
 }
@@ -178,93 +183,96 @@ button {
   top: 50%;
   left: 50%;
 }
-/* special */
-.special {
-  display: flex;
-  flex-direction: column;
-  width: 100vw;
-  overflow-x: hidden;
-  position: relative;
-  background-color: #e21e1e;
-}
-.khoihinh {
-  display: flex;
-  width: 100%;
-}
-.khoihinh .img {
-  display: fixed;
-  top: 120px;
-  width: 100%;
-  height: 90%;
-}
-.khoinut {
-  width: 200px;
-  height: 200px;
-  z-index: 101;
-  display: flex;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-}
-.nut {
-  width: 33px;
-  height: 33px;
-  background-color: #fff;
-  border-radius: 50%;
-}
-/*  */
-.infomatch {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #e21e1e;
-  padding-top: 100px;
-}
-.khoimatch .img {
-  padding-bottom: 100px;
-  width: 647px;
-  height: 405px;
-  border-radius: 20px 50%;
-}
-.khoiinfo .desc {
+.hienso p {
   color: #fff;
-  font-size: 1.8rem;
-  font-weight: 700;
+  font-size: 1rem;
 }
 /*  */
 .body {
   display: flex;
   flex-direction: column;
+}
+.top {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1fr 1.2fr 1fr 1.2fr;
+  grid-template-rows: repeat(1, 1fr);
+  gap: 10px;
+}
+.tieude {
+  display: contents;
+  text-align: center;
+}
+.tieude::after {
+  content: "";
+  grid-column: 1/-1;
+  border-bottom: 1px solid #000;
+}
+.row {
+  margin: 20px;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
-.khoihang {
-  display: flex;
-  width: 100%;
-  justify-content: space-evenly;
-  margin-top: -50px;
-  gap: 60px;
+.gia {
+  font-size: 2.7rem;
+  color: #cc0000;
 }
+.soluong .desc {
+  font-size: 2.5rem;
+}
+.tonggia {
+  font-size: 2.7rem;
+  color: #cc0000;
+}
+.btn__delete {
+  background-color: #ffc5c5;
+  border: #df0404;
+}
+.btn__delete a {
+  font-weight: bold;
+  color: #df0404;
+}
+.btn:hover {
+  transform: scale(1.1);
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 80px;
+  border-radius: 4px;
+  border: 2px solid #cc0000;
+}
+.thaotac {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.ticknone {
+  width: 30px;
+  height: 30px;
+  background-color: #dcdceb;
+}
+/*  */
 .khoitran {
-  width: 40%;
-  height: 500px;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  width: 200px;
+  height: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   position: relative;
+  margin: 0 auto;
 }
 .khoihinhnhap {
   position: absolute;
-  width: 720px;
-  height: 405px;
-  border-radius: 35px;
+  width: 160px;
+  height: 90px;
+  border-radius: 5px;
 }
 .khoihinhnhap .img {
   width: 100%;
@@ -284,64 +292,33 @@ button {
 }
 .khoitentran .desc {
   position: absolute;
-  top: 168px;
-  left: -80px;
+  top: 38px;
+  left: -190px;
   text-align: center;
   color: #fff;
-  font-size: 2.5rem;
+  font-size: 0.5rem;
   font-weight: 700;
   width: 500px;
 }
 .svg__ten {
   position: absolute;
-  top: 140px;
-  left: -56px;
+  top: 5px;
+  left: 20px;
   text-align: center;
   color: #000000;
   font-size: 2.5rem;
   font-weight: 700;
-  width: 500px;
+  width: 100px;
   fill: currentColor;
   stroke: currentColor;
-}
-.khoichon {
-  position: absolute;
-  right: -57px;
-  width: 200px;
-  height: 405px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  background: rgba(5, 5, 5, 0.6);
-  border-radius: 0px 35px 35px 0px;
-}
-.khoichon .btn {
-  width: 120px;
-  height: 35px;
-  border-radius: 9px;
-  border: 9px solid #0000;
-  background: rgba(255, 255, 255, 0.01);
-  color: black;
-  font-size: 1rem;
-  cursor: pointer;
-  background-color: #ffffff;
-  font-weight: bold;
-}
-.khoichon .btn:hover {
-  background-color: #000000;
-  color: #ffffff;
-  scale: 1.111;
-  box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.7);
-  font-weight: bold;
 }
 .khoithoigian {
   position: absolute;
   z-index: 1000;
-  bottom: -15px;
-  left: -55px;
-  width: 564px;
-  height: 57px;
+  bottom: -25px;
+  left: 20px;
+  width: 100px;
+  height: 27px;
   border-radius: 0px 0px 70px 0px;
   background: #fff;
   box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -351,97 +328,32 @@ button {
 }
 .khoithoigian .desc {
   color: #000;
-  font-size: 2rem;
+  font-size: 0.5rem;
   font-style: italic;
   font-weight: 700;
 }
 .khoithoigian .desc:last-child {
   color: #000;
-  font-size: 40px;
+  font-size: 0.8rem;
   font-style: normal;
 }
-.khoian {
+.soluong {
   display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  background: rgba(5, 5, 5, 0.6);
-  opacity: 0;
-  transform: translateX(-100%);
-  pointer-events: none;
-  transition: transform 0.5s ease, opacity 0.5s ease;
-}
-.khoithongtin:hover .khoian {
-  transform: translateX(0);
-  opacity: 1;
-  pointer-events: auto;
-}
-/* khoi News */
-.news {
-  display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 10px;
 }
-.news .desc {
+.soluong svg {
+  width: 30px;
+  height: 20px;
+}
+.inputticket {
   color: #000;
-  font-size: 4rem;
+  font-family: "Istok Web";
+  font-size: 1.8rem;
   font-weight: 700;
 }
-.khoitintuc {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-  width: 100%;
-  height: 500px;
-  padding-top: 350px;
-  margin-bottom: 350px;
-  padding-right: 20px;
-  padding-left: 20px;
-}
-.img {
-  border-radius: 30px;
-  object-fit: cover;
-}
-.img1 {
-  flex: 0.5;
-  width: 10%;
-  height: 380px;
-}
-.img2 {
-  flex: 0.7;
-  width: 20%;
-  height: 560px;
-}
-.img3 {
-  flex: 1;
-  width: 40%;
-  height: 720px;
-}
-.img4 {
-  flex: 0.7;
-  width: 20%;
-  height: 560px;
-}
-.img5 {
-  flex: 0.5;
-  width: 10%;
-  height: 380px;
-}
-.khoipoint {
-  display: flex;
-  gap: 30px;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 150px;
-}
-.point {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  background-color: #9197b3;
-}
+
 /*  */
 .footer {
   display: flex;
@@ -524,23 +436,4 @@ button {
 .phai .desc:hover {
   color: #f9b625;
 }
-.khoian {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  background: rgba(5, 5, 5, 0.6);
-  opacity: 0;
-  transform: translateX(-100%);
-  pointer-events: none;
-  transition: transform 0.5s ease, opacity 0.5s ease, box-shadow 0.5s ease;
-  border: 2px solid transparent;
-  border-radius: 30px;
-}
-.khoithongtin:hover .khoian {
-  transform: translateX(0);
-  opacity: 1;
-  pointer-events: auto;
-  border-color: #ffffff;
-  box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.7);
-}
+/*  */
