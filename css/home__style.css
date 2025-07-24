@@ -115,6 +115,7 @@ button {
 }
 .cart {
   padding: 30px 35px;
+  position: relative;
 }
 .cart .svg {
   color: #fff;
@@ -161,6 +162,20 @@ button {
 }
 .login .desc {
   margin-right: 20px;
+}
+.hienso {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #000;
+  color: #fff;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
 /* special */
 .special {
