@@ -257,6 +257,10 @@ p {
   width: 30px;
   height: 30px;
   background-color: #dcdceb;
+  cursor: pointer;
+}
+.inputticket {
+  cursor: pointer;
 }
 /*  */
 .khoitran {
@@ -347,6 +351,7 @@ p {
 .soluong svg {
   width: 30px;
   height: 20px;
+  cursor: pointer;
 }
 .inputticket {
   color: #000;
@@ -394,6 +399,7 @@ p {
 .bot .ticknone {
   display: flex;
   gap: 10px;
+  cursor: pointer;
 }
 .tongfinal {
   color: #cc0000;
