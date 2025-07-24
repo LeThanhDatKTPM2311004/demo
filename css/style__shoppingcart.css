@@ -135,6 +135,7 @@ p {
   flex-direction: column;
   margin-left: 35px;
   margin-right: 20px;
+  gap: 4px;
 }
 .gach {
   width: 250px;
@@ -315,10 +316,10 @@ p {
 .khoithoigian {
   position: absolute;
   z-index: 1000;
-  bottom: -25px;
-  left: 20px;
+  bottom: -13px;
+  left: 15px;
   width: 100px;
-  height: 27px;
+  height: 17px;
   border-radius: 0px 0px 70px 0px;
   background: #fff;
   box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -353,7 +354,59 @@ p {
   font-size: 1.8rem;
   font-weight: 700;
 }
-
+.khoitanghinh {
+  display: none;
+}
+.soluong svg:hover {
+  color: #cc0000;
+}
+.bot {
+  border-radius: 50px 0 0 0;
+  background: #eef0f2;
+  width: 20%;
+  margin-top: 100px;
+  margin-left: 80%;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.bottop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.botbot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.bot .desc {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.bot .ticknone {
+  display: flex;
+  gap: 10px;
+}
+.tongfinal {
+  color: #cc0000;
+}
+.bot .btn {
+  color: #fff;
+  font-weight: normal;
+  width: 130px;
+  height: 57px;
+  border-radius: 10px;
+  background: #f43a3d;
+  margin-right: 20px;
+}
 /*  */
 .footer {
   display: flex;
