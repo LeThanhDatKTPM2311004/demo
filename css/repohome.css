@@ -3,7 +3,7 @@
     position: fixed;
     top: 0;
     left: -100%;
-    width: 25%;
+    width: 35%;
     height: 320px;
     background-color: white;
     z-index: 998;
@@ -339,7 +339,7 @@
     width: 15%;
   }
   .contractinfo {
-    width: 20%;
+    width: 25%;
   }
 }
 @media only screen and (min-width: 600px) {
