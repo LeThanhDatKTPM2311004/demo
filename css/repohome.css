@@ -3,7 +3,7 @@
     position: fixed;
     top: 0;
     left: -100%;
-    width: 15%;
+    width: 25%;
     height: 320px;
     background-color: white;
     z-index: 998;
@@ -18,7 +18,7 @@
     left: 0;
   }
   .desc {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
   }
   .form,
   .input {
@@ -28,7 +28,7 @@
     width: 100vw;
     height: 30px;
     position: fixed;
-    z-index: 998;
+    z-index: 1998;
     overflow: hidden;
     background: linear-gradient(135deg, #b3001b, #cc001f, #e00023);
     display: flex;
@@ -45,6 +45,8 @@
   .khoiusermb {
     display: flex;
     margin-right: 20px;
+    justify-content: center;
+    align-items: center;
   }
   .khoiusermb .gach {
     display: none;
@@ -56,11 +58,14 @@
     margin: 0 auto;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     gap: 20px;
   }
   .khoinav .desc {
     color: #fff;
-    font-size: 1.6rem;
+    font-size: 1rem;
+    font-weight: bold;
     cursor: pointer;
   }
   .thanhsearch {
@@ -68,7 +73,7 @@
   }
   .special {
     width: 100vw;
-    height: 70vh;
+    height: 100vh;
   }
   .khoihinh {
     display: flex;
@@ -108,6 +113,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 20px;
   }
   .khoitran {
     width: 90%;
@@ -124,6 +130,7 @@
     white-space: normal;
     word-wrap: break-word;
     overflow-wrap: break-word;
+    padding-bottom: 20px;
   }
   .khoimatch .img {
     display: none;
@@ -297,6 +304,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100vw;
   }
   .khoiliv {
     width: 80vw;
@@ -314,8 +322,9 @@
   .phai {
     display: flex;
     padding: 0px;
-    width: 90%;
+    width: 80vw;
     justify-content: center;
+    margin: 10px;
   }
   .phai .desc {
     font-size: 1rem;
@@ -324,16 +333,13 @@
     overflow-wrap: none;
   }
   .quicklink {
-    width: 20%;
-    margin-right: 8px;
+    width: 15%;
   }
   .sponsor {
-    width: 20%;
-    margin-left: -5px;
+    width: 15%;
   }
   .contractinfo {
     width: 20%;
-    margin-right: 10px;
   }
 }
 @media only screen and (min-width: 600px) {
