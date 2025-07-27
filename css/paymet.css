@@ -152,3 +152,17 @@ label {
 .btn:hover {
   scale: 1.1111;
 }
+.khoithongtin {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+}
+.khoithongtin .desc {
+  font-weight: bold;
+}
+.khoithongtin .form {
+  width: 150px;
+}

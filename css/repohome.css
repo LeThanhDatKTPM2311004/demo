@@ -24,6 +24,13 @@
   .input {
     width: 100%;
   }
+  .khoiusermb .img {
+    width: 15px;
+    height: 15px;
+  }
+  .khoiusermb .desc {
+    font-size: 1rem;
+  }
   .headermobile {
     width: 100vw;
     height: 30px;
