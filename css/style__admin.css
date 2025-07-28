@@ -241,6 +241,9 @@ label {
 .khoichungcontact .khoigiua {
   grid-template-columns: 1fr 1.2fr 1fr 1.5fr;
 }
+.oder .khoigiua {
+  grid-template-columns: 1fr 1.2fr 1fr 1.5fr 1.5fr;
+}
 .grid-row {
   display: contents;
   text-align: center;
